@@ -1,0 +1,61 @@
+# Archivos de compilación
+target/
+bin/
+
+# Archivos generados por Maven
+.mvn/
+!**/src/main/**/lib/
+**/src/main/lib/*
+
+# Archivos generados por Gradle
+.gradle/
+build/
+out/
+
+# Directorios y archivos de IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Directorios y archivos de Eclipse
+.project
+.classpath
+.settings/
+*.launch
+
+# Archivos de NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración de entorno
+*.env
+.env.local
+
+# Archivos de configuración de prueba
+test-output/
+surefire-reports/
+cucumber-reports/
+
+# Archivos de compilación de dependencias externas
+*.jar
+*.war
+*.ear
+
+# Archivos temporales y de bloqueo
+*.swp
+*~
